@@ -2,10 +2,10 @@
 
 n = int(input())
 data = list(map(int, input().split()))
-result = 0
+result = 0 # 그룹 수
 count = 0
 
-data.sort()
+data.sort() #오름차순 정렬
 
 for i in data :
     count += 1
